@@ -4,11 +4,11 @@
 
 ![Epistemic Deny: allowlist blocks become STATUS/WHY/USE_INSTEAD packets, not fake success](docs/hero.png)
 
-**One sentence:** Epistemic Deny formats every hard tool block as a
+Epistemic Deny formats every hard tool block as a
 **packet** (`STATUS`, `WHY`, `USE_INSTEAD`, `STOP_RETRY`) so a language
 model cannot narrate “permission denied” as “I confirmed the flag is unset.”
 
-**Value proposition:** Allowlists without a compiler-error-shaped result
+* Allowlists without a compiler-error-shaped result
 train the model to **invent configuration**. LangChain’s `ToolException`
 keeps the agent running; MCP’s `is_error` invites self-correction; Instructor
 *reasks*. Two identical hard blocks here force text-only recovery. That is
