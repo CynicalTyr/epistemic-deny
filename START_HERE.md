@@ -7,7 +7,7 @@ commands. It does **not** assume you know Docker, MCP, or how AI agents work.
 
 ![Allowlist blocks become STATUS/WHY/USE_INSTEAD packets, not fake success](docs/hero.png)
 
-**One sentence:** when a tool is blocked, this library returns a labeled
+When a tool is blocked, this library returns a labeled
 packet (`STATUS`, `WHY`, `USE_INSTEAD`) instead of a prose error, so the
 model cannot treat “permission denied” as “the flag is unset.”
 
