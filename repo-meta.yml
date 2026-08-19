@@ -1,7 +1,7 @@
 github_repo: epistemic-deny
 description: Structured STATUS/WHY/USE_INSTEAD packets for allowlist denies so models cannot invent config after permission denied.
 homepage: START_HERE.md
-private: true
+private: false
 topics: ai-agents,llm,allowlist,tool-use,permission-denied,epistemic
 source_folder: epistemic-packets
 python: '3.12'
