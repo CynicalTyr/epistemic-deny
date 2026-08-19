@@ -1,0 +1,7 @@
+github_repo: epistemic-deny
+description: Structured STATUS/WHY/USE_INSTEAD tool denies so LLMs cannot invent success.
+homepage: START_HERE.md
+private: false
+topics: ai-agents,llm,allowlist,tool-use,epistemic
+source_folder: epistemic-packets
+python: '3.12'
